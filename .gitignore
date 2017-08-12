@@ -11,6 +11,8 @@
 # IDEs and editors
 /.idea
 .project
+*.swp
+*.swa
 .classpath
 .c9/
 *.launch

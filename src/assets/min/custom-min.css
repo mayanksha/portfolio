@@ -1,6 +1,6 @@
-/*.default_color {*/
-    /*background-color: #2196F3 !important*/
-/*}*/
+.default_color {
+		background-color: #4A148C !important
+}
 .default_color_text {
     color: #2196F3 !important
 }
@@ -22,15 +22,43 @@
     /*box-shadow: none !important;*/
     /*-webkit-box-shadow: none !important*/
 /*}*/
+.said_by {
+	overflow : hidden;
+	white-space : nowrap;
+	font-weight : bolder;
+	color : #444;
+	background-color : white;
+	padding : 0.3em;
+	font-size : 1.7rem;
+}
 .text_h {
 		padding : 30vh;
     font-size: 7.0em;
     font-weight: 100;
     color: white
 }
+.text_about {
+		padding : 1%;
+		margin : auto;
+    font-size: 7.0em;
+    font-weight: 100;
+    color: #444;
+    line-height : 1em;
+    vertical-align : bottom;
+}
+.text_about_bio{
+		margin : auto;
+		font-size : 1.5rem;
+		font-weight : light;
+		color : #555;
+		font-family : Lucida Console; 
+}
 .brand-logo {
+		margin : 10px;
+		padding : 3px;
+		background-color : white;
     position: absolute;
-    color: #fff;
+    color: #444 !important;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
@@ -49,10 +77,15 @@
     letter-spacing: 4px
 }
 .text_h2_quote {
-    font-weight: 100;
+    font-weight: 300;
     font-size : 2em;
     margin-bottom: 4%;
     line-height: 3rem
+}
+.text_card_bio {
+		font-size : 1.7em;
+		font-family : Josefin Sans ; 
+		letter-spacing : 1px;
 }
 .span_h2 {
     font-weight: 300;
@@ -253,4 +286,24 @@ nav a.button-collapse {
 }
 footer.page-footer {
     margin-top: 0px !important
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 140px solid #ff5a00;
+    border-bottom: 70px solid transparent;
+}
+/*#logo-container {*/
+    /*border-top: 10px solid transparent;*/
+    /*border-right: 140px solid #4A148C;*/
+    /*border-bottom: 10px solid transparent;*/
+/*}*/
+.signs {
+	color : white;
+	font-weight : bolder;
+}
+.address {
+ color : #333;
+	font-family : Helvetica;
 }
